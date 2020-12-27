@@ -7,6 +7,8 @@ gb = 1024*1024*1024
 kb16 = 16*1024*1024
 
 def create(key,value,time_to_live=0):
+    if time_to_live == 0:
+        time_to_live = None
     if key in key_value:
         print("Error! Already Exist")
     else:
