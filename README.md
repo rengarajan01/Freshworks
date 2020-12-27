@@ -1,5 +1,7 @@
 # Freshworks
 
+Language of choice : PYTHON
+
 Main file contains the CRD functions
 Client file contains the access files to the functions in Main file
 
